@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.headings {
+    display: flex;
+    height: 40vh;
+    width: 70vw;
+    margin: auto;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+}
+
+.heading2 {
+    width: 30vw;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: auto;
+    width: 73%;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.item>h3 {
+    margin-left: 15%;
+}
+
+.item2 {
+    margin-top: 30%;
+}
+
+.item5 {
+    margin-top: 30%;
+}
+
+img {
+    width: 79%;
+    height: 100%;
+}
+
+p {
+    writing-mode: vertical-rl;
+}
+
+.image-and-horizontal-text {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item {
+    width: 86%;
+    height: 87%;
+
+}
+
+footer {
+    text-align: center;
+    padding: 5%;
+    padding-top: 10%;
+}
